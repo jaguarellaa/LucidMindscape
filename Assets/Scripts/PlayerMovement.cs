@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     public float runSpeed = 10.0f;
 
+    public float health = 100;
+
     void Start ()
     {
         body = GetComponent<Rigidbody2D>();
@@ -39,13 +41,5 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {   
-        if (collision.gameObject.tag == "Stop")
-        {
-            
-
-        }
-      
-    }
+    
 }
