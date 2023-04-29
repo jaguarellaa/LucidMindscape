@@ -1061,6 +1061,7 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
+  - {fileID: 21300000, guid: 11749009b737e4c1c9c35e9a29745b0a, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1279,7 +1280,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1091962983}
   selectedCommands:
-  - {fileID: 1091963001}
+  - {fileID: 1091962993}
   variables: []
   description: 
   stepPause: 0
@@ -1324,7 +1325,7 @@ MonoBehaviour:
     i deserve a little bit of raise.
   description: 
   character: {fileID: 942537571}
-  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
+  portrait: {fileID: 21300000, guid: 11749009b737e4c1c9c35e9a29745b0a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1393,7 +1394,7 @@ MonoBehaviour:
   storyText: 'But sir, i really need this raise and i have been working extra hours. '
   description: 
   character: {fileID: 942537571}
-  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
+  portrait: {fileID: 21300000, guid: 11749009b737e4c1c9c35e9a29745b0a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1448,7 +1449,7 @@ MonoBehaviour:
   storyText: Okay, then i quit! I hate being a white-collar. I quit!
   description: 
   character: {fileID: 942537571}
-  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
+  portrait: {fileID: 21300000, guid: 11749009b737e4c1c9c35e9a29745b0a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1502,7 +1503,7 @@ MonoBehaviour:
   storyText: Hello, sir. I wanted to talk about something.
   description: 
   character: {fileID: 942537571}
-  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
+  portrait: {fileID: 21300000, guid: 11749009b737e4c1c9c35e9a29745b0a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
