@@ -45,13 +45,59 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Collision detected!");
+
         if (collision.gameObject.tag == "L1")
         {
-            Debug.Log("L1 collision detected!");
+
             tualsPiece[0].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L2")
+        {
+
+            tualsPiece[1].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L3")
+        {
+
+            tualsPiece[2].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L4")
+        {
+
+            tualsPiece[3].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L5")
+        {
+
+            tualsPiece[4].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L6")
+        {
+
+            tualsPiece[5].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L7")
+        {
+
+            tualsPiece[6].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L8")
+        {
+
+            tualsPiece[7].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L9")
+        {
+
+            tualsPiece[8].SetActive(true);
+        }
+        if (collision.gameObject.tag == "L10")
+        {
+
+            tualsPiece[9].SetActive(true);
         }
     }
 
