@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e48ad33e-a032-4841-8ac9-9a79ced6d2c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LucidMindscape/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BG-Images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BG-Images/arkaplan-galeri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BG-Images/arkaplan-galeri.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BG-Images/galeri-dik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BG-Images/galeri-dik.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/DragDropScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/DragDropScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/GPT_ROCKS.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/GPT_ROCKS.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DragDrop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DragDrop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EventsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/d6a0cfc2-ae84-4f1c-b108-6657fe5289a2-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/d6a0cfc2-ae84-4f1c-b108-6657fe5289a2-removebg-preview.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LucidMindscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LucidMindscape/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/282c122e72fd8cde2879f3a616ba5a49.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/282c122e72fd8cde2879f3a616ba5a49.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColliderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ColliderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColliderController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ColliderController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Katman_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Katman_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Katman_10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Katman_10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Katman_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Katman_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ErdemScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ErdemScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TreeDream.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TreeDream.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (3).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (3).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (4).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (4).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (5).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (5).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (6).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (6).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (6).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (6).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (7).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (7).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (7).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/pngwing.com (7).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pngwing.com (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/pngwing.com (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pngwing.com (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/pngwing.com (2).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pngwing.com (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/pngwing.com (3).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/pngwing.com (4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/pngwing.com (4).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="2P5zHs5YGPwucBYeoUMTrSE9AYa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e48ad33e-a032-4841-8ac9-9a79ced6d2c2" name="Changes" comment="" />
+      <created>1682761648015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682761648015</updated>
+      <workItem from="1682761648016" duration="5000" />
+    </task>
+    <servers />
+  </component>
+</project>

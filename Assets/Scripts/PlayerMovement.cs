@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    public float health = 100;
+
     void Start ()
     {
         body = GetComponent<Rigidbody2D>();
@@ -42,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
     }
 
+<<<<<<< HEAD
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Collision detected!");
@@ -51,4 +54,7 @@ public class PlayerMovement : MonoBehaviour
             tualsPiece[0].SetActive(true);
         }
     }
+=======
+    
+>>>>>>> 0bfc62e7bfba82f7cc13ac7525921bc35655bdce
 }
