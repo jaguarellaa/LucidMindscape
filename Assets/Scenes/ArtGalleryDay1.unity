@@ -142,9 +142,22 @@ GameObject:
   - component: {fileID: 62835666}
   - component: {fileID: 62835664}
   - component: {fileID: 62835673}
-  - component: {fileID: 62835674}
-  - component: {fileID: 62835676}
-  - component: {fileID: 62835675}
+  - component: {fileID: 62835681}
+  - component: {fileID: 62835680}
+  - component: {fileID: 62835679}
+  - component: {fileID: 62835682}
+  - component: {fileID: 62835687}
+  - component: {fileID: 62835686}
+  - component: {fileID: 62835685}
+  - component: {fileID: 62835684}
+  - component: {fileID: 62835683}
+  - component: {fileID: 62835689}
+  - component: {fileID: 62835688}
+  - component: {fileID: 62835693}
+  - component: {fileID: 62835692}
+  - component: {fileID: 62835691}
+  - component: {fileID: 62835690}
+  - component: {fileID: 62835694}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -165,11 +178,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 23, y: 120.5}
+  scrollPos: {x: 23.401936, y: 121.03995}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.9985003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -177,9 +190,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 62835665}
+  - {fileID: 62835680}
   selectedCommands:
-  - {fileID: 62835664}
+  - {fileID: 62835683}
   variables: []
   description: 
   stepPause: 0
@@ -205,7 +218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: I know and i have been thinking about it. I made this picture.
+  storyText: I know and i have been thinking about it. I made this painting.
   description: 
   character: {fileID: 535603213}
   portrait: {fileID: 21300000, guid: 66fba384c07fb4adda7189d2bf90720f, type: 3}
@@ -232,9 +245,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
-    width: 143
+    x: 4.998498
+    y: 72
+    width: 143.13968
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -250,9 +263,8 @@ MonoBehaviour:
   - {fileID: 62835666}
   - {fileID: 62835664}
   - {fileID: 62835673}
-  - {fileID: 62835674}
-  - {fileID: 62835676}
-  - {fileID: 62835675}
+  - {fileID: 62835681}
+  - {fileID: 62835682}
   suppressAllAutoSelections: 0
 --- !u!114 &62835666
 MonoBehaviour:
@@ -272,7 +284,7 @@ MonoBehaviour:
     do better.
   description: 
   character: {fileID: 2039039045}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 975d3b9cb4b0446379857673f8193138, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -326,7 +338,7 @@ MonoBehaviour:
   storyText: Hello Violet, how are you?
   description: 
   character: {fileID: 2039039045}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 975d3b9cb4b0446379857673f8193138, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -410,7 +422,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &62835673
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -429,9 +441,125 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
---- !u!114 &62835674
+--- !u!114 &62835679
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 198
+    y: 165.5
+    width: 115.097626
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 15
+  blockName: Bad Choice
+  description: A painting representing sacrificing things to a greater purpose.
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 62835689}
+  - {fileID: 62835688}
+  - {fileID: 62835693}
+  - {fileID: 62835692}
+  - {fileID: 62835691}
+  - {fileID: 62835690}
+  suppressAllAutoSelections: 0
+--- !u!114 &62835680
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 191.04501
+    y: 7.494482
+    width: 123.10964
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 14
+  blockName: Good Choice
+  description: A painting representing the act of clearing worms on a sunny, cloudy
+    day symbolizes overcoming obstacles in life.
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 62835687}
+  - {fileID: 62835686}
+  - {fileID: 62835685}
+  - {fileID: 62835683}
+  - {fileID: 62835684}
+  - {fileID: 62835694}
+  suppressAllAutoSelections: 0
+--- !u!114 &62835681
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  text: A painting representing the act of clearing worms on a sunny, cloudy day
+    symbolizes overcoming obstacles in life...
+  description: 
+  targetBlock: {fileID: 62835680}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &62835682
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  indentLevel: 0
+  text: A painting representing sacrificing things to a greater purpose...
+  description: 
+  targetBlock: {fileID: 62835679}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &62835683
+MonoBehaviour:
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -441,13 +569,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 8
+  itemId: 21
   indentLevel: 0
-  storyText: A painting representing the act of clearing worms on a sunny, cloudy
-    day symbolizes overcoming obstacles in life.
+  storyText: Violet... Your artwork deeply resonates with me. It is beautiful. I
+    am speechless.
   description: 
-  character: {fileID: 535603213}
-  portrait: {fileID: 21300000, guid: 66fba384c07fb4adda7189d2bf90720f, type: 3}
+  character: {fileID: 2039039045}
+  portrait: {fileID: 21300000, guid: 975d3b9cb4b0446379857673f8193138, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -457,9 +585,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &62835675
+--- !u!114 &62835684
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -469,7 +597,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 10
+  itemId: 20
+  indentLevel: 0
+  storyText: Thank you, Violet.
+  description: 
+  character: {fileID: 2039039045}
+  portrait: {fileID: 21300000, guid: 975d3b9cb4b0446379857673f8193138, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835685
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
   indentLevel: 0
   storyText: The artwork serves as a reminder of our capacity to confront challenges
     and support others.
@@ -485,9 +640,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &62835676
+--- !u!114 &62835686
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -497,10 +652,228 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 9
+  itemId: 18
   indentLevel: 0
   storyText: 'It showcases the contrast between hope and uncertainty, emphasizing
     resilience and personal growth. '
+  description: 
+  character: {fileID: 535603213}
+  portrait: {fileID: 21300000, guid: 66fba384c07fb4adda7189d2bf90720f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835687
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  storyText: A painting representing the act of clearing worms on a sunny, cloudy
+    day symbolizes overcoming obstacles in life.
+  description: 
+  character: {fileID: 535603213}
+  portrait: {fileID: 21300000, guid: 66fba384c07fb4adda7189d2bf90720f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835688
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  storyText: We all need to sacrifice great things in order to achieve greatness.
+  description: 
+  character: {fileID: 535603213}
+  portrait: {fileID: 21300000, guid: 66fba384c07fb4adda7189d2bf90720f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835689
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  storyText: A painting representing sacrificing things to a greater purpose.
+  description: 
+  character: {fileID: 535603213}
+  portrait: {fileID: 21300000, guid: 66fba384c07fb4adda7189d2bf90720f, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835690
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  indentLevel: 0
+  storyText: Diane, wait!
+  description: 
+  character: {fileID: 535603213}
+  portrait: {fileID: 21300000, guid: b9f1425c5c96d401a8924b1e19d4fc69, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835691
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  indentLevel: 0
+  storyText: I will never talk to you about my problems again.
+  description: 
+  character: {fileID: 2039039045}
+  portrait: {fileID: 21300000, guid: 975d3b9cb4b0446379857673f8193138, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835692
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  storyText: Are you high Violet? Are you okay?
+  description: 
+  character: {fileID: 2039039045}
+  portrait: {fileID: 21300000, guid: 975d3b9cb4b0446379857673f8193138, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835693
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  storyText: What the hell are you talking about? I don't sacrifice anything or anyone
+    important to me.
+  description: 
+  character: {fileID: 2039039045}
+  portrait: {fileID: 21300000, guid: 975d3b9cb4b0446379857673f8193138, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &62835694
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62835662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  indentLevel: 0
+  storyText: Anytime, Diane.
   description: 
   character: {fileID: 535603213}
   portrait: {fileID: 21300000, guid: 66fba384c07fb4adda7189d2bf90720f, type: 3}
@@ -546,6 +919,7 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: b9f1425c5c96d401a8924b1e19d4fc69, type: 3}
   - {fileID: 21300000, guid: 66fba384c07fb4adda7189d2bf90720f, type: 3}
   - {fileID: 21300000, guid: 11749009b737e4c1c9c35e9a29745b0a, type: 3}
   portraitsFace: 0
@@ -1865,7 +2239,9 @@ MonoBehaviour:
   nameText: Diane
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 975d3b9cb4b0446379857673f8193138, type: 3}
+  - {fileID: 0}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
