@@ -1241,7 +1241,7 @@ GameObject:
   - component: {fileID: 942537572}
   - component: {fileID: 942537571}
   m_Layer: 0
-  m_Name: Violetta
+  m_Name: Violet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1263,7 +1263,7 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 6dd389c1c3af24904bb98d6665028ab3, type: 3}
+  - {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1091962983}
   selectedCommands:
-  - {fileID: 1091962997}
+  - {fileID: 1091962998}
   variables: []
   description: 
   stepPause: 0
@@ -1527,7 +1527,7 @@ MonoBehaviour:
     i deserve a little bit of raise.
   description: 
   character: {fileID: 942537571}
-  portrait: {fileID: 21300000, guid: 6dd389c1c3af24904bb98d6665028ab3, type: 3}
+  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   storyText: 'But sir, i really need this raise and i have been working extra hours. '
   description: 
   character: {fileID: 942537571}
-  portrait: {fileID: 21300000, guid: 6dd389c1c3af24904bb98d6665028ab3, type: 3}
+  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1651,7 +1651,7 @@ MonoBehaviour:
   storyText: Okay, then i quit! I hate being a white-collar. I quit!
   description: 
   character: {fileID: 942537571}
-  portrait: {fileID: 21300000, guid: 6dd389c1c3af24904bb98d6665028ab3, type: 3}
+  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1705,7 +1705,7 @@ MonoBehaviour:
   storyText: Hello, sir. I wanted to talk about something.
   description: 
   character: {fileID: 942537571}
-  portrait: {fileID: 21300000, guid: 6dd389c1c3af24904bb98d6665028ab3, type: 3}
+  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1732,7 +1732,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1091962997
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1766,7 +1766,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Hahaha! Is this a '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 709115358}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1793,7 +1793,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: . . .
   description: 
-  character: {fileID: 0}
+  character: {fileID: 709115358}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1820,8 +1820,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Welcome, welcome to my gallery!
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 942537571}
+  portrait: {fileID: 21300000, guid: 30d11b310a3804e269e192f283d51730, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
