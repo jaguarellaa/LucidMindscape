@@ -42,7 +42,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private IEnumerator GiveDamage()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.7f);
         target.GetComponent<PlayerMovement>().health -= 5;
         Debug.Log(target.GetComponent<PlayerMovement>().health);
     }
