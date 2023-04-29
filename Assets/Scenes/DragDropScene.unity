@@ -245,9 +245,9 @@ GameObject:
   - component: {fileID: 417023424}
   - component: {fileID: 417023423}
   - component: {fileID: 417023422}
-  - component: {fileID: 417023421}
   - component: {fileID: 417023427}
   - component: {fileID: 417023428}
+  - component: {fileID: 417023429}
   m_Layer: 5
   m_Name: Creature (1)
   m_TagString: Untagged
@@ -275,26 +275,6 @@ RectTransform:
   m_AnchoredPosition: {x: -297, y: 155}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &417023421
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 417023419}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 634fc304072d4ce4396b5eb3061e790b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &417023422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -461,6 +441,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0001, y: 0.0001}
   m_EdgeRadius: 0
+--- !u!111 &417023429
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417023419}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: b9b3ff579d649934094393bf9aff0909, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &573184593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,6 +1503,7 @@ GameObject:
   - component: {fileID: 1333943493}
   - component: {fileID: 1333943495}
   - component: {fileID: 1333943496}
+  - component: {fileID: 1333943497}
   m_Layer: 5
   m_Name: Cloud
   m_TagString: Untagged
@@ -1611,6 +1607,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
+--- !u!111 &1333943497
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333943491}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: b9b3ff579d649934094393bf9aff0909, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2113438835
 GameObject:
   m_ObjectHideFlags: 0
