@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
   - L1
   - L2
   - L3
@@ -16,10 +15,9 @@ TagManager:
   - L9
   - L10
   - Tual
-=======
   - Stop
-  - Trash
->>>>>>> 0bfc62e7bfba82f7cc13ac7525921bc35655bdce
+  - Pink
+  - Blue
   layers:
   - Default
   - TransparentFX
