@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     float moveLimiter = 0.7f;
 
     public float runSpeed = 10.0f;
+    public GameObject[] tualsPiece;
+
+
 
     void Start ()
     {
@@ -40,12 +43,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {   
-        if (collision.gameObject.tag == "Stop")
+    {
+        Debug.Log("Collision detected!");
+        if (collision.gameObject.tag == "L1")
         {
-            
-
+            Debug.Log("L1 collision detected!");
+            tualsPiece[0].SetActive(true);
         }
-      
     }
 }
