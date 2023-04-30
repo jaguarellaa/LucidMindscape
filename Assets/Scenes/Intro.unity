@@ -790,7 +790,8 @@ MonoBehaviour:
   nameText: Boss
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: f673f0300565946b6931e2e770680574, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1278,7 +1279,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1091962983}
   selectedCommands:
-  - {fileID: 1091963003}
+  - {fileID: 1091962990}
   variables: []
   description: 
   stepPause: 0
@@ -1365,7 +1366,7 @@ MonoBehaviour:
   storyText: It is out of the question.
   description: 
   character: {fileID: 463932503}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f673f0300565946b6931e2e770680574, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1420,7 +1421,7 @@ MonoBehaviour:
     you will minimum salary.
   description: 
   character: {fileID: 463932503}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f673f0300565946b6931e2e770680574, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1474,7 +1475,7 @@ MonoBehaviour:
   storyText: Hmm? What is it?
   description: 
   character: {fileID: 463932503}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f673f0300565946b6931e2e770680574, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
