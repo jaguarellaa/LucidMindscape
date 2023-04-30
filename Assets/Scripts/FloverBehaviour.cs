@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class FloverBehaviour : MonoBehaviour
 {
@@ -33,6 +34,8 @@ public class FloverBehaviour : MonoBehaviour
 
     private int tree1Num = 0;
     private Transform[] bigFlowerChildren;
+    
+    
 
     private void Awake()
     {
@@ -108,6 +111,7 @@ public class FloverBehaviour : MonoBehaviour
             bigFlowerChildren = GetComponentsInChildren<Transform>();
             Debug.Log("You Win!!");
             CreateFlovers();
+            StartCoroutine(GoNextScene());
         }
     }
 
@@ -149,5 +153,11 @@ public class FloverBehaviour : MonoBehaviour
            
             
         }
+    }
+
+    private IEnumerator GoNextScene()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("ArtGalleryDay2");
     }
 }
