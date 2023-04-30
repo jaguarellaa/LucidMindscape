@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
    private RectTransform rectTransform;
+   private Canvas m_Canvas;
    
    private enum DragStates
    {
@@ -19,6 +21,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
    private void Awake()
    {
       rectTransform = GetComponent<RectTransform>();
+      m_Canvas = GetComponentInParent<Canvas>();
    }
 
    public void OnPointerDown(PointerEventData eventData)
@@ -40,7 +43,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
    public void OnDrag(PointerEventData eventData)
    {
       Debug.Log("OnDrag");
-      rectTransform.anchoredPosition += eventData.delta;
+      rectTransform.anchoredPosition += eventData.delta / m_Canvas.scaleFactor;
       dragState = DragStates.drag;
    }
    
@@ -48,10 +51,17 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
    {
       if (other.gameObject.CompareTag("Trash"))
       {
-         Debug.Log("It's touched");
-         
-         Destroy(gameObject);
-         
+         StartCoroutine(KillCreature());
       }
+   }
+
+   private IEnumerator KillCreature()
+   {
+      transform.GetComponent<Animator>().enabled = true;
+      MonsterDragManager.Instance.monsterCount -= 1;
+      Debug.Log(MonsterDragManager.Instance.monsterCount );
+      yield return new WaitForSeconds(1);
+      Destroy(gameObject);
+
    }
 }

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DragDropScene.unity
     guid: 27c1ce5fd10e4e04992f651634381430
+  - enabled: 1
+    path: Assets/Scenes/ArtGalleryDay1.unity
+    guid: e5320834ee511423386b1e1f69e2f908
   m_configObjects: {}

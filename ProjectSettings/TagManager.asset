@@ -18,6 +18,9 @@ TagManager:
   - Stop
   - Pink
   - Blue
+  - Trash
+  - Red
+  - Purple
   layers:
   - Default
   - TransparentFX
