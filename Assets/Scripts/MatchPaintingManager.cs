@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Fungus;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,7 +32,14 @@ public class MatchPaintingManager : MonoBehaviour
     {
         if (matchCount == 7)
         {
-            Debug.Log("You win!");
+            StartCoroutine(LoadLunaScene());
         }
+    }
+
+    private IEnumerator LoadLunaScene()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("LunaScene");
+
     }
 }

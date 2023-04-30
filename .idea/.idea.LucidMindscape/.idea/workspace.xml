@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75b21b43-24f8-4c2f-aec3-ea8a0ec3a225" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LucidMindscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LucidMindscape/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ArtGalleryDay2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ArtGalleryDay2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MatchPaintingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MatchPaintingManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
