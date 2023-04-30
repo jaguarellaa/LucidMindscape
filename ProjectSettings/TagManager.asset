@@ -3,30 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - L1
-  - L2
-  - L3
-  - L4
-  - L5
-  - L6
-  - L7
-  - L8
-  - L9
-  - L10
-  - Tual
-  - Stop
-  - Pink
-  - Blue
-  - Trash
-  - Red
-  - Piano
-  - Orange
-  - Green
-  - Purple
-  - Yellow
-  - sksfon
-  - Gitar
+  tags: []
   layers:
   - Default
   - TransparentFX

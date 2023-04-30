@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TreeDream.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Intro.unity
+    guid: b499e8dde3bf64fcc9ae723cc4450ad5
+  - enabled: 1
+    path: Assets/Scenes/DragDropScene.unity
+    guid: 27c1ce5fd10e4e04992f651634381430
+  - enabled: 1
+    path: Assets/Scenes/ArtGalleryDay1.unity
+    guid: e5320834ee511423386b1e1f69e2f908
+  - enabled: 1
+    path: Assets/Scenes/ArtGalleryDay2.unity
+    guid: 05091c02462a2426caee63d8862f8940
+  - enabled: 1
+    path: Assets/Scenes/ErdemScene.unity
+    guid: 846cc8109e694954da84902e8e50f3a5
+  - enabled: 1
+    path: Assets/Scenes/IREMFloverScene.unity
+    guid: d63d93f94568d8148946b8847f3662e2
+  - enabled: 1
+    path: Assets/Scenes/Tual1.unity
+    guid: d294c18c80d2ad1428a31e8422ec5484
   m_configObjects: {}
