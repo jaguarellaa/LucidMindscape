@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LunaScene.unity
     guid: 4310f5192c0707544b964135cc3ada85
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 2a30737305e83474c9c9e38e8505ef9d
   m_configObjects: {}

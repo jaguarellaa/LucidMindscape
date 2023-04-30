@@ -728,7 +728,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.998498
     y: 72
-    width: 143
+    width: 145.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -769,9 +769,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 465766750}
-  selectedCommands:
-  - {fileID: 465766759}
+  - {fileID: 465766749}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1006,7 +1005,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258.2154
     y: 140.39526
-    width: 115
+    width: 116.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1039,7 +1038,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217.11266
     y: 21.097023
-    width: 123
+    width: 124.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1078,7 +1077,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &465766752
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1097,7 +1096,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &465766753
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1125,7 +1124,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &465766754
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1264,7 +1263,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &465766759
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
