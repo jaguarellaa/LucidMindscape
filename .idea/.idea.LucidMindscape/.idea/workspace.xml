@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75b21b43-24f8-4c2f-aec3-ea8a0ec3a225" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LucidMindscape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LucidMindscape/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Fade.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Fade.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Image.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Image.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DragDropScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DragDropScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragDrop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragDrop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="75b21b43-24f8-4c2f-aec3-ea8a0ec3a225" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682711090604</updated>
       <workItem from="1682711096634" duration="18545000" />
-      <workItem from="1682799750529" duration="17545000" />
+      <workItem from="1682799750529" duration="18142000" />
     </task>
     <servers />
   </component>
